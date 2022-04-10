@@ -1,0 +1,13 @@
+What is QA?
+quality - standard
+assurance - confidence
+
+
+Test:
+Documention
+manual and automation
+
+
+Different kinds of Documentation:
+Test Plan - plan for testing
+Test cases - steps to perform some action or verify some visual

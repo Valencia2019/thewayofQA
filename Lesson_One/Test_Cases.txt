@@ -1,0 +1,7 @@
+Login with existing username and password (3 users)
+
+Login with existing username and incorrect password (Invalid)
+
+Login with incorrect username and password (invalid)
+
+Verify locked out users can't login
