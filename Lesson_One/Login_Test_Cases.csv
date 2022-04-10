@@ -1,0 +1,26 @@
+Title,Description,Test Data,Prerequisites,Steps,Expected result,Result
+Login with existing username and password (3 users),,"standard_user, problem_user, performance_glitch_user",,"1. Open webpage.
+2. Enter username in the username field
+3. Enter a password in the password field
+4. Click the login button","1. At step 4, the user should be logged in and viewing the products page",Pass
+,,,,,,
+Login with existing username and incorrect password (Invalid),,standard_user,,"1. Open webpage.
+2. Enter username in the username field
+3. Enter a password in the password field
+4. Click the login button","1. At step 4, the user should be warned that something is incorrect and should not be logged in and viewing the products page
+The warning should say ""Epic sadface: Username and password do not match any user in this service""",Pass
+,,,,,,
+Login with incorrect username and password (invalid),,,,"1. Open webpage.
+2. Enter username in the username field
+3. Enter a password in the password field
+4. Click the login button","1. At step 4, the user should be warned that something is incorrect and should not be logged in and viewing the products page
+The warning should say ""Epic sadface: Username and password do not match any user in this service""",Pass
+,,,,,,
+Verify locked out users can't login,,locked_out_user,,"1. Open webpage.
+2. Enter username in the username field
+3. Enter a password in the password field
+4. Click the login button","1. At step 4, the user should be warned that they are locked out and should not be logged in and viewing the products page
+The warning should say ""Epic sadface: Sorry, this user has been locked out.""",Pass
+,,,,,,
+Verify login page Visual Test,,,,1. Open webpage.,"1. At step 1, the user should see the correct url, the swag labs header should be visible, and the username field, password field, and login button should all be available 
+",Pass

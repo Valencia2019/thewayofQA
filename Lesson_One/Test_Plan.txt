@@ -1,0 +1,18 @@
+Name: Login Test Plan
+Description: Testing login for saucedemo website.
+Objectives:
+Test functionality of logging in.
+Scope:
+Only testing login with valid, locked out and invalid user info.
+Out of scope: new users
+
+Test deliverables:
+This test plan
+completed test cases
+Test cases are automated (need to decide which ones)
+
+Test Case Summary:
+Login with existing username and password (3 users)
+Login with existing username and incorrect password (Invalid)
+Login with incorrect username and password (invalid)
+Verify locked out users can't login
